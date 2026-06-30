@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    container_name: trend-radar-app
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./config:/app/config
+    command: python -m src.main run
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

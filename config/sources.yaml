@@ -1,0 +1,53 @@
+sources:
+  - name: bigdata
+    type: habr
+    enabled: true
+    params:
+      hub: bigdata #artificial_intelligence   # или ml, или machine_learning
+      min_rating: 5
+
+  - name: habr_python
+    type: habr
+    enabled: true
+    params:
+      hub: python
+      min_rating: 5
+
+  - name: data_engineering
+    type: habr
+    enabled: true
+    params:
+      hub: data_engineering
+      min_rating: 3
+
+  - name: analysis_design
+    type: habr
+    enabled: true
+    params:
+      hub: analysis_design
+      min_rating: 5
+
+  - name: dwh
+    type: habr
+    enabled: true
+    params:
+      hub: dwh
+      min_rating: 3
+
+  - name: devops
+    type: habr
+    enabled: true
+    params:
+      hub: devops
+      min_rating: 3
+
+  - name: sql
+    type: habr
+    enabled: true
+    params:
+      hub: sql
+      min_rating: 3
+
+
+
+
