@@ -21,6 +21,7 @@ ENV/
 .env.local
 *.pem
 *.key
+.idea
 
 # IDE
 .vscode/
